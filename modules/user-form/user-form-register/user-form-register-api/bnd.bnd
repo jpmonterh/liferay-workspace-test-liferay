@@ -1,0 +1,10 @@
+Bundle-Name: user-form-register-api
+Bundle-SymbolicName: com.liferay.user.form.register.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.user.form.register.exception,\
+	com.liferay.user.form.register.model,\
+	com.liferay.user.form.register.service,\
+	com.liferay.user.form.register.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../user-form-register-service/service.xml

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.user.form.register.model.UserFormRegister">
+		<field name="uuid" type="String" />
+		<field name="userFormRegisterId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="createDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="surname" type="String" />
+		<field name="email" type="String" />
+		<field name="birthday" type="Date" />
+	</model>
+</model-hints>
